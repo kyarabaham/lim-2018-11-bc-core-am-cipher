@@ -1,0 +1,43 @@
+body{
+	width: 1329px;		
+	height: 850px;
+	margin: center;
+}
+#formulario{
+	background-image: url(imagenes/codigo.png);
+	width: 
+}
+#comencemos{
+	height: 80px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ #explicacion{
+ 	display: flex;
+ 	background-color: pink;
+ 	font-family: 'Saira', sans-serif;
+ 	
+ 	height: 50px;
+ 	justify-content: center;
+   align-items: center;
+   padding: 15px;
+   position: lef
+ }
+#explicacion-t{
+display: flex;
+ 	background-color: pink;
+ 	font-family: 'Saira', sans-serif;
+ 	height: 10px;
+ 	justify-content: center;
+   align-items: center;
+   padding: 15px;
+	text-decoration-line: underline;
+    text-decoration-style: double;
+
+ }
+
