@@ -21,4 +21,3 @@ const decifrar = () => {
 
 }
 efectoDescifrar.addEventListener('click', decifrar);
-// que con eso ?
