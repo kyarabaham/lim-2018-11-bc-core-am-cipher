@@ -4,34 +4,54 @@
     <meta charset="utf-8">
     <title>Cesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Rajdhani|Saira" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Rajdhani|Saira" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
   <body>
+<<<<<<< HEAD
  <div><img src="imagenes/hola.png" width="100%" height="550"></div>
+=======
+ <div><img src="imagenes/hola1.png" width="100%" height="600" id="imagen-baner"></div>
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
  
       
 
   <div id="comencemos">
+<<<<<<< HEAD
     <a href="#ingrese"><button id="comencemos-btn"><h1>Comencemos</h1></button></a>
+=======
+    <button id="comencemos-btn"><a href="#ingrese" ><h1>Comencemos</h1></a></button>
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
   </div>
+    <div id="explicacion">
 
-    <form  id="formulario">
-      <div id="explicacion">
-       <p>Este método de cifrado consiste en cambiar cada letra del texto por la que esté N lugares más adelante en el abecedario, donde “N” solo lo conocen el emisor y el receptor del mensaje. Por ejemplo, el caso sencillo de N=1 sería cambiar cada letra por la siguiente del abecedario (la A por la B, la B por la C, la C por la D… la Z por la A). Si N=6, la A se cambiaría por la G, la B por la H, etc. Este método, con N=3, fue el utilizado por Julio César en sus mensajes, de ahí que se conozca como cifrado César.</p>
+      <h4>"Este método de cifrado consiste en cambiar cada letra del texto por la que esté N lugares más adelante en el abecedario, donde “N” solo lo conocen el emisor y el receptor del mensaje. Por ejemplo, el caso sencillo de N=1 sería cambiar cada letra por la siguiente del abecedario (la A por la B, la B por la C, la C por la D… la Z por la A). Si N=6, la A se cambiaría por la G, la B por la H, etc. Este método, con N=3, fue el utilizado por Julio César en sus mensajes, de ahí que se conozca como cifrado César".</h4>
+       
 
       </div>
+<<<<<<< HEAD
       <label name="ingrese" id="ingrese">Ingrese el texto</label>
       <div> 
+=======
+
+
+      <center><div class="formularia">
+        <form><br>
+        <label name="ingrese" id="ingrese">Ingrese el texto</label>
+        
+        <div> 
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
         <textarea id="text-1" ></textarea>
-      </div>
-    
-    <div>
-       <input type="number" id="despla" placeholder="numero de desplazamiento" >
-       <div>
+        </div>
+
+        <input type="number" id="despla" placeholder="numero de desplazamiento" >
+        
+        <div>
         <button type="button" id="btn-txt">Cifrar</button>
         <button type="button" id="btn-txt2">Descifrar</button>
         </div>
+<<<<<<< HEAD
     </div>
     
       <label>Resultado</label>
@@ -40,6 +60,19 @@
     </div>
     <button id="btn"><a href="index.html">Atras</a></button>
   </form>
+=======
+        <label>Resultado</label>
+
+        <div>  
+         <textarea id="resultado"></textarea>
+        </div>
+        <button type="button"  id="btn"><a href="index.html" id="n">Atras</a></button>
+
+      </form></div></center>
+
+
+  <div class="holi"></div>  
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>

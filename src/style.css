@@ -1,6 +1,7 @@
 body{
 	width: 1329px;		
 	height: 950px;
+<<<<<<< HEAD
 	margin: center;
 }
 #formulario{
@@ -22,12 +23,51 @@ body{
   font-size: 20px;
   margin-top: -10px;
 
+=======
+  margin: center;
+  
+}
+.formularia{
+  background-image: url(imagenes/digita.jpg);
+  width: 100%;
+  height:500px;
+  margin-bottom: 30px;
+  
+}
+form{
+  top: 20%;
+  background: rgba(0,0,0,0.8);
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+
+}
+#comencemos{
+ background-color: white;
+ width: 50px; 
+}
+
+#comencemos-btn{
+
+    display: flex;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    color: black;
+    background: rgba(0,0,0,0.7);
+    font-size: 16px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
  }
- 
- #explicacion{
+#explicacion{
  	display: flex;
  	font-family: 'Saira', sans-serif;
  	background-color: #C29F61;
+<<<<<<< HEAD
  	height: 50px;
  	justify-content: center;
    align-items: center;
@@ -42,10 +82,31 @@ body{
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+=======
+ 	height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding:45px;
+ }
+
+
+#text-1{
+  width: 400px;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
    														
 }
 #resultado{
 	width: 400px;
+<<<<<<< HEAD
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -53,12 +114,92 @@ body{
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+=======
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 25px;
+
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
 }
 label{
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Barlow Semi Condensed', sans-serif;
+<<<<<<< HEAD
 }
+=======
+  color: white;
+}
+#despla{
+	 width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+#btn-txt {
+	width: 150px;
+  display: inline-block;
+  padding: 5px 1px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #E1D9B1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;}
+#btn-txt2{
+  width: 150px;
+  display: inline-block;
+  padding: 5px 1px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color:#E1D9B1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  }
+#btn{
+  width: 150px;
+  display: inline-block;
+  padding: 5px 1px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #E1D9B1;																				;
+  border: none;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  }
+
+a{
+  text-decoration: none;
+    color:white;                                        
+  }
+  #n{
+ text-decoration: none;
+    color:black;  
+  }
+>>>>>>> 93ed81e67d0a2ee9c45a73a04e92556e5764bd7c
 
 #despla{
 	 width: 400px;
